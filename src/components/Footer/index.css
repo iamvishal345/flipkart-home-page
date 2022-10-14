@@ -1,0 +1,39 @@
+.footer-container {
+  background-color: var(--color-light-black);
+  color: var(--color-white);
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  padding: 1.5rem 3rem;
+  flex-wrap: wrap;
+  row-gap: 1rem;
+}
+
+.footer-link-item,
+.footer-section-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-link-item {
+  flex: 0 0 130px;
+  gap: 0.75rem;
+}
+.footer-section-item {
+  flex: 0 0 200px;
+  gap: 0.5rem;
+}
+.footer-header {
+  color: var(--color-gray);
+}
+
+.footer-links-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.divider {
+  margin: 1rem;
+  border-left: 1px solid var(--color-gray);
+}

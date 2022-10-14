@@ -1,0 +1,15 @@
+.metadata-container {
+  padding: 1.5rem;
+}
+.metadata-title {
+  font-size: 1.2rem;
+  color: var(--color-gray);
+  filter: brightness(0.9);
+  margin-bottom: 0.75rem;
+}
+
+.metadata-section {
+  font-size: 0.75rem;
+  color: var(--color-gray);
+  margin-bottom: 0.75rem;
+}

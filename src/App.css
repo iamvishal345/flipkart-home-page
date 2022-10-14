@@ -1,0 +1,12 @@
+.main-page {
+  background-color: var(--color-gray-bg);
+  padding: 0 0.5rem;
+}
+
+.main-page > section {
+  padding-top: 1rem;
+}
+
+.main-page > section:last-child {
+  padding-bottom: 2rem;
+}

@@ -1,0 +1,23 @@
+.link {
+  height: 100%;
+  transition: filter 300ms ease-in-out;
+  font-weight: 500;
+}
+
+.link-primary {
+  color: var(--color-primary);
+}
+
+.link-secondary {
+  color: var(--color-white);
+}
+
+.link:hover,
+.link:focus {
+  filter: brightness(0.9);
+}
+
+.link.disabled {
+  filter: brightness(0.5);
+  pointer-events: none;
+}
